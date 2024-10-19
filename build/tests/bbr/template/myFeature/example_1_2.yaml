@@ -1,0 +1,8 @@
+{
+  "id": 16,
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "my-prop": "my-value"
+  }
+}
