@@ -1,6 +1,7 @@
+$schema: https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/refs/heads/master/ogc/bblocks/schemas/examples.schema.yaml
 ## Prefixes will be used for all RDF Turtle resources so that they can be omitted from the actual snippets
-# prefixes:
-#   dct: http://purl.org/dc/terms/
+prefixes:
+  mynamespace: http://example.com/mythings/
 
 ## List of examples
 examples:
@@ -30,7 +31,9 @@ examples:
           type: Feature
           geometry: null
           properties:
-            my-prop: my-value
+            a: mynamespace:aThing
+            b: 23
+            c: 0.1
         ## A snippet can also have its own base-uri, overriding that of the example
         # base-uri: http://example.com/features-2/
 
