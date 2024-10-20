@@ -1,0 +1,11 @@
+{
+  "@context": [
+    {
+      "mynamespace": "http://example.org/ns1/"
+    },
+    "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise3/context.jsonld"
+  ],
+  "a": "mynamespace:aThing",
+  "b": 23,
+  "c": 1
+}

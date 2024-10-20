@@ -1,0 +1,76 @@
+
+
+{
+  "itemIdentifier": "ogc.bbr.template.exercise3",
+  "$schema": "metaschema.yaml",
+  "name": "Exercise 3",
+  "highlighted": true,
+  "abstract": "Add logical rules",
+  "status": "under-development",
+  "dateTimeAddition": "2023-04-05T00:00:00Z",
+  "itemClass": "model",
+  "register": "ogc-building-block-register",
+  "version": "0.1",
+  "dateOfLastChange": "2024-10-20",
+  "link": "https://github.com/opengeospatial/bblock-template",
+  "sources": [
+    {
+      "title": "Sample source document",
+      "link": "https://example.com/sources/1"
+    }
+  ],
+  "maturity": "mature",
+  "scope": "unstable",
+  "tags": [
+    "templates"
+  ],
+  "shaclRules": {
+    "ogc.bbr.template.exercise3": [
+      "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise3/rules.shacl"
+    ]
+  },
+  "ldContext": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise3/context.jsonld",
+  "schema": {
+    "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise3/schema.yaml",
+    "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise3/schema.json"
+  },
+  "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise3/schema.yaml",
+  "sourceLdContext": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise3/context.jsonld",
+  "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise3/",
+  "validationPassed": true,
+  "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/template/exercise3/",
+  "description": "## Exercise 3\n\nGoal: Validate logical rules\n\n### Steps\n- rename `rules.example` to `rules.shacl` \n- run build\n- run viewer\n- navigate to \"Exercise 3\"/Validation\n- view validation results at [Validation Report](../validation) or [build-local/...](/register/build-local/tests/bbr/template/exercise3/_report.json)",
+  "examples": [
+    {
+      "title": "Reference a local file for examples",
+      "content": "[Example from mySchema](../../mySchema/example.json)\n\nIn **Markdown** format.",
+      "snippets": [
+        {
+          "language": "json",
+          "ref": "../mySchema/example.json",
+          "code": "{\n  \"a\": \"mynamespace:aThing\",\n  \"b\": 23,\n  \"c\": 1\n}\n\n",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/tests/bbr/template/exercise3/example_1_1.json"
+        },
+        {
+          "language": "jsonld",
+          "code": "{\n  \"@context\": [\n    {\n      \"mynamespace\": \"http://example.org/ns1/\"\n    },\n    \"https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise3/context.jsonld\"\n  ],\n  \"a\": \"mynamespace:aThing\",\n  \"b\": 23,\n  \"c\": 1\n}",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/tests/bbr/template/exercise3/example_1_1.jsonld"
+        },
+        {
+          "language": "ttl",
+          "code": "@prefix mynamespace: <http://example.org/ns1/> .\n@prefix ns1: <https://example.org/my-bb-model/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a mynamespace:aThing ;\n    ns1:b 23 ;\n    ns1:c 1 .\n\n",
+          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/tests/bbr/template/exercise3/example_1_1.ttl"
+        }
+      ],
+      "prefixes": {
+        "mynamespace": "http://example.org/ns1/"
+      }
+    }
+  ],
+  "examplePrefixes": {
+    "mynamespace": "http://example.org/ns1/"
+  },
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: My example schema\ntype: object\nproperties:\n  a:\n    type: string\n    format: uri\n    x-jsonld-id: '@type'\n  b:\n    type: number\n    x-jsonld-id: https://example.org/my-bb-model/b\n  c:\n    type: number\n    x-jsonld-id: https://example.org/my-bb-model/c\nrequired:\n- a\n- b\nx-jsonld-prefixes:\n  mynamespace: http://example.org/ns1/\n",
+  "gitRepository": "https://github.com/ogcincubator/bblocks-tutorial",
+  "gitPath": "_sources/exercise3"
+}

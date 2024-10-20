@@ -7,36 +7,186 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.bbr.template.myFeature> a skos:Concept,
+<https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.bbr.template.exercise1> a skos:Concept,
         dcat:Dataset,
         bblocks:Schema ;
-    rdfs:label "Custom Feature" ;
-    dct:abstract "This examples shows a simple customisation for OGC API Feature schemas" ;
+    rdfs:label "Exercise 1" ;
+    dct:abstract "Set an example" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/json-full/bbr/template/exercise1/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/bblock/ogc.bbr.template.exercise1" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/markdown/bbr/template/exercise1/index.md" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-10-20"^^xsd:date ;
+    dct:source <https://example.com/sources/1> ;
+    skos:inScheme <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/> ;
+    dcat:keyword "templates" ;
+    bblocks:hasSchema <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise1/schema.json>,
+        <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise1/schema.yaml> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.bbr.template.exercise2> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "Exercise 2" ;
+    dct:abstract "Add a JSON-LD context" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/markdown/bbr/template/exercise2/index.md" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/json-full/bbr/template/exercise2/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/bblock/ogc.bbr.template.exercise2" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-10-20"^^xsd:date ;
+    dct:source <https://example.com/sources/1> ;
+    skos:inScheme <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/> ;
+    dcat:keyword "templates" ;
+    bblocks:hasSchema <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise2/schema.json>,
+        <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise2/schema.yaml> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.bbr.template.exercise3> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Model ;
+    rdfs:label "Exercise 3" ;
+    dct:abstract "Add logical rules" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/bblock/ogc.bbr.template.exercise3" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/json-full/bbr/template/exercise3/index.json" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/markdown/bbr/template/exercise3/index.md" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-10-20"^^xsd:date ;
+    dct:source <https://example.com/sources/1> ;
+    skos:inScheme <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/> ;
+    dcat:keyword "templates" ;
+    bblocks:hasJsonLdContext <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise3/context.jsonld> ;
+    bblocks:hasSchema <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise3/schema.json>,
+        <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise3/schema.yaml> ;
+    bblocks:hasShaclRule <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise3/rules.shacl> ;
+    bblocks:hasSourceJsonLdContext <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise3/context.jsonld> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.bbr.template.exercise4> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Model ;
+    rdfs:label "Exercise 4" ;
+    dct:abstract "Profile with rules" ;
+    dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/bblock/ogc.bbr.template.exercise4" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/json-full/bbr/template/exercise4/index.json" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/markdown/bbr/template/exercise4/index.md" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-10-20"^^xsd:date ;
+    dct:source <https://example.com/sources/1> ;
+    skos:inScheme <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/> ;
+    dcat:keyword "templates" ;
+    bblocks:hasSchema <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise4/schema.json>,
+        <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise4/schema.yaml> ;
+    bblocks:hasShaclRule <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise4/rules.shacl> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.bbr.template.exercise5> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "Exercise 5" ;
+    dct:abstract "This example shows a simple customisation for OGC API Feature schemas" ;
     dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/json-full/bbr/template/myFeature/index.json" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/markdown/bbr/template/myFeature/index.md" ],
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/json-full/bbr/template/exercise5/index.json" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/bblock/ogc.bbr.template.myFeature" ] ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/bblock/ogc.bbr.template.exercise5" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/markdown/bbr/template/exercise5/index.md" ] ;
     dct:hasVersion "1.0" ;
-    dct:modified "2024-10-19"^^xsd:date ;
+    dct:modified "2024-10-20"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> ;
     skos:inScheme <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/> ;
     dcat:keyword "examples",
         "feature" ;
-    bblocks:dependsOn <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.bbr.template.mySchema>,
-        <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.geo.features.feature> ;
-    bblocks:hasJsonLdContext <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/myFeature/context.jsonld> ;
-    bblocks:hasSchema <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/myFeature/schema.json>,
-        <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/myFeature/schema.yaml> ;
-    bblocks:hasShaclRule <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/mySchema/rules.shacl> ;
+    bblocks:dependsOn <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.geo.features.feature> ;
+    bblocks:hasJsonLdContext <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise5/context.jsonld> ;
+    bblocks:hasSchema <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise5/schema.json>,
+        <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise5/schema.yaml> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> .
 
-<https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> rdfs:label "OGC API - Features, Part 1, 7.16.2: Feature Response" .
+<https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.bbr.template.exercise6> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "Exercise 6" ;
+    dct:abstract "Profiling an external bblock" ;
+    dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/json-full/bbr/template/exercise6/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/bblock/ogc.bbr.template.exercise6" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/markdown/bbr/template/exercise6/index.md" ] ;
+    dct:hasVersion "1.0" ;
+    dct:modified "2024-10-20"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/> ;
+    dcat:keyword "examples",
+        "feature" ;
+    bblocks:hasSchema <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise6/schema.json>,
+        <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise6/schema.yaml> ;
+    bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
 
-<https://example.com/sources/1> rdfs:label "Sample source document" .
+<https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.bbr.template.exercise7> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "Exercise 7" ;
+    dct:abstract "schema and graph transforms" ;
+    dct:created "2024-10-03T11:31:00+02:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/markdown/bbr/template/exercise7/index.md" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/json-full/bbr/template/exercise7/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/bblock/ogc.bbr.template.exercise7" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-10-20"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/> ;
+    bblocks:hasJsonLdContext <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise7/context.jsonld> ;
+    bblocks:hasSchema <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise7/schema.json>,
+        <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise7/schema.yaml> ;
+    bblocks:hasSourceJsonLdContext <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise7/context.jsonld> ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.bbr.template.exercise8> a skos:Concept,
+        dcat:Dataset,
+        bblocks:Schema ;
+    rdfs:label "Exercise 8" ;
+    dct:abstract "Transform from CityJSON to TopoFeature" ;
+    dct:created "2024-10-18T08:31:00+00:00"^^xsd:dateTime ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/markdown/bbr/template/exercise8/index.md" ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/json-full/bbr/template/exercise8/index.json" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/bblock/ogc.bbr.template.exercise8" ] ;
+    dct:hasVersion "0.1" ;
+    dct:modified "2024-10-20"^^xsd:date ;
+    skos:inScheme <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/> ;
+    dcat:keyword "3D",
+        "cityjson",
+        "geometry",
+        "topology" ;
+    bblocks:status <http://www.opengis.net/def/status/under-development> .
 
 <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/ogc.bbr.template.mySchema> a skos:Concept,
         dcat:Dataset,
@@ -44,14 +194,14 @@
     rdfs:label "My Schema" ;
     dct:abstract "An example schema defining the set of properties of any type of object." ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/bblock/ogc.bbr.template.mySchema" ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/json-full/bbr/template/mySchema/index.json" ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/markdown/bbr/template/mySchema/index.md" ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/generateddocs/json-full/bbr/template/mySchema/index.json" ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/bblock/ogc.bbr.template.mySchema" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-19"^^xsd:date ;
+    dct:modified "2024-10-20"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
     skos:inScheme <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/> ;
     dcat:keyword "templates" ;
@@ -62,6 +212,10 @@
     bblocks:hasSourceJsonLdContext <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/mySchema/context.jsonld> ;
     bblocks:scope <http://www.opengis.net/def/bblocks/scope/unstable> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> .
+
+<https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> rdfs:label "OGC API - Features, Part 1, 7.16.2: Feature Response" .
+
+<https://example.com/sources/1> rdfs:label "Sample source document" .
 
 <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/> a skos:ConceptScheme,
         dcat:Catalog ;
@@ -77,14 +231,14 @@ including [links](https://google.es).
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-10-19T23:10:10.255752"^^xsd:dateTime ;
-    prov:startedAtTime "2024-10-19T23:10:10.195935"^^xsd:dateTime ;
+    prov:endedAtTime "2024-10-20T11:27:31.683031"^^xsd:dateTime ;
+    prov:startedAtTime "2024-10-20T11:27:31.609533"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/yaml" ;
             rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ],
         [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:9b0976c5edede858a29b44f28c6ddefc4f632b06" ;
+            dct:hasVersion "git:9ad8b7462c515c72eb33281fe0615c0a491237d3" ;
             rdfs:seeAlso <https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/register.json> ] ;
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;

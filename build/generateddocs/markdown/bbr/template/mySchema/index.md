@@ -18,16 +18,13 @@ Defines a set of properties that may be used in **any** JSON schema.
 The numeric properties "b" and "c" have an example SHACL rule that if c is present, then c > b
 ## Examples
 
-### This is an example with just a description and no code snippets.
+### JSON object (file)
 This an example.
 
 In **Markdown** format.
 #### json
 ```json
 {
-  "@context": {
-    "mynamespace": "http://example.org/ns1/"
-  },
   "a": "mynamespace:aThing",
   "b": 23,
   "c": 1
@@ -40,10 +37,10 @@ In **Markdown** format.
 ```jsonld
 {
   "@context": [
-    "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/mySchema/context.jsonld",
     {
-      "mynamespace": "http://example.org/ns1/"
-    }
+      "mynamespace": "http://example.com/mythings/"
+    },
+    "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/mySchema/context.jsonld"
   ],
   "a": "mynamespace:aThing",
   "b": 23,
@@ -53,7 +50,7 @@ In **Markdown** format.
 
 #### ttl
 ```ttl
-@prefix mynamespace: <http://example.org/ns1/> .
+@prefix mynamespace: <http://example.com/mythings/> .
 @prefix ns1: <https://example.org/my-bb-model/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -65,7 +62,7 @@ In **Markdown** format.
 ```
 
 
-### Examples can have content and/or code snippets.
+### Code snippets
 The content of this example. 
 #### shell
 ```shell

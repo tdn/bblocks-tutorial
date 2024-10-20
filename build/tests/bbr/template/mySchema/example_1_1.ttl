@@ -1,4 +1,4 @@
-@prefix mynamespace: <http://example.org/ns1/> .
+@prefix mynamespace: <http://example.com/mythings/> .
 @prefix ns1: <https://example.org/my-bb-model/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 

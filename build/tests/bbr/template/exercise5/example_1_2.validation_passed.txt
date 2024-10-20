@@ -1,0 +1,10 @@
+Validation report for ogc.bbr.template.exercise5 - Exercise 5
+Generated 2024-10-20T11:27:31.593267+00:00
+=== Files ===
+Using example_1_2.yaml from examples
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+
