@@ -6,10 +6,10 @@ prefixes:
 examples:
 - title: Reference a local file for examples
   content: |-
-    [Example from mySchema](../../mySchema/example.json)
+    [Example from mySchema](../../exercise1/example.json)
     
     In **Markdown** format.
 
   snippets:
     - language: json
-      ref: ../mySchema/example.json
+      ref: ../exercise1/example.json

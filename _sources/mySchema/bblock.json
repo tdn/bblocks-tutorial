@@ -17,5 +17,6 @@
   ],
   "maturity": "mature",
   "scope": "unstable",
-  "tags": ["templates"]
+  "tags": ["templates"],
+  "highlighted": true
 }
