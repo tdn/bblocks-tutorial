@@ -14,15 +14,16 @@ Add logical rules
 Goal: Validate logical rules
 
 ### Steps
-- rename `rules.example` to `rules.shacl` 
+- uncomment line 11 in `rules.shacl` 
 - run build
 - run viewer
 - navigate to "Exercise 3"/Validation
-- view validation results at [Validation Report](../validation) or [build-local/...](/register/build-local/tests/bbr/template/exercise3/_report.json)
+- view validation results on "about tab" 
+
 ## Examples
 
 ### Reference a local file for examples
-[Example from mySchema](../../mySchema/example.json)
+[Example from mySchema](../../exercise1/example.json)
 
 In **Markdown** format.
 #### json

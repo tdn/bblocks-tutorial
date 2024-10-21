@@ -24,7 +24,7 @@ Goal: Semantically annotate a JSON schema
 ## Examples
 
 ### Reference a local file for examples
-[Example from mySchema](../../mySchema/example.json)
+[Example from mySchema](../../exercise1/example.json)
 
 In **Markdown** format.
 #### json

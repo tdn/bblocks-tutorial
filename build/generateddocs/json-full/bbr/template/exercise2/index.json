@@ -11,7 +11,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-10-20",
+  "dateOfLastChange": "2024-10-21",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -37,11 +37,11 @@
   "examples": [
     {
       "title": "Reference a local file for examples",
-      "content": "[Example from mySchema](../../mySchema/example.json)\n\nIn **Markdown** format.",
+      "content": "[Example from mySchema](../../exercise1/example.json)\n\nIn **Markdown** format.",
       "snippets": [
         {
           "language": "json",
-          "ref": "../mySchema/example.json",
+          "ref": "../exercise1/example.json",
           "code": "{\n  \"a\": \"mynamespace:aThing\",\n  \"b\": 23,\n  \"c\": 1\n}\n\n",
           "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/tests/bbr/template/exercise2/example_1_1.json"
         }

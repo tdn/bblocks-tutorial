@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-10-20",
+  "dateOfLastChange": "2024-10-21",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -23,6 +23,7 @@
   "tags": [
     "templates"
   ],
+  "highlighted": true,
   "shaclRules": {
     "ogc.bbr.template.mySchema": [
       "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/mySchema/rules.shacl"

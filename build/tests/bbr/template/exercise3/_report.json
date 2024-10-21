@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.template.exercise3 - Exercise 3",
   "bblockName": "Exercise 3",
   "bblockId": "ogc.bbr.template.exercise3",
-  "generated": "2024-10-20T11:27:31.237070+00:00",
+  "generated": "2024-10-21T10:01:12.176946+00:00",
   "result": true,
   "items": [
     {
@@ -73,13 +73,11 @@
               "shaclFile": "_sources/exercise3/rules.shacl",
               "focusNodes": {
                 "<https://www.ogc.org/rules/template/#testValues>": {
-                  "nodes": [
-                    "_:Ndffa02e310c742dba2d32fd806f4d87d"
-                  ]
+                  "nodes": []
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/exercise3/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:Ndffa02e310c742dba2d32fd806f4d87d\n"
+              "message": "Focus nodes for _sources/exercise3/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: *none*\n"
             }
           ]
         }
