@@ -1,0 +1,98 @@
+{
+  "title": "Validation report for ogc.bbr.tutorial.exercise6 - Exercise 6",
+  "bblockName": "Exercise 6",
+  "bblockId": "ogc.bbr.tutorial.exercise6",
+  "generated": "2024-10-23T13:24:47.321807+00:00",
+  "result": true,
+  "items": [
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "_sources/exercise6/tests/example-fail.json",
+        "url": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise6/tests/example-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using example-fail.json from test resources"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "['P1', 'P2', 'P3'] is too long",
+              "isError": true,
+              "message": "ValidationError: ['P1', 'P2', 'P3'] is too long\n\nFailed validating 'maxItems' in schema['allOf'][0]['properties']['topology']['properties']['references']:\n    {'maxItems': 2, 'minItems': 2}\n\nOn instance['topology']['references']:\n    ['P1', 'P2', 'P3']"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "EXAMPLE",
+        "requireFail": false,
+        "filename": "build/tests/bbr/tutorial/exercise6/example_1_1.json",
+        "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise6/example_1_1.json",
+        "exampleIndex": 1,
+        "snippetIndex": 1,
+        "language": "json"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using example_1_1.json from examples"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": true,
+              "isError": false,
+              "message": "Validation passed"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "globalErrors": {},
+  "counts": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0
+  }
+}

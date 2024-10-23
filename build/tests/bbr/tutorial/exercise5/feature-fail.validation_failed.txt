@@ -1,0 +1,19 @@
+Validation report for ogc.bbr.tutorial.exercise5 - Exercise 5
+Generated 2024-10-23T13:24:47.673896+00:00
+=== General ===
+
+** Validation error **
+Test was expected to fail but it did not.
+=== End General ===
+
+=== Files ===
+Using feature-fail.json from test resources
+JSON-LD context is present - uplifting
+Output JSON-LD feature-fail.jsonld created
+Output Turtle feature-fail.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+

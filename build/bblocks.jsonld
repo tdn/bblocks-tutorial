@@ -103,10 +103,10 @@
       }
     }
   ],
-  "name": "Building Blocks - My OGC Building Blocks repository",
-  "abstract": "This is an example text for the abstract. It should be short and to the point.\nA \"Tell me more\" link will appear if there is an additional description with a longer explanation.\n",
-  "description": "The description can be longer. Both **the abstract** *and the description* support Markdown,\nincluding [links](https://google.es).\n",
-  "modified": "2024-10-23T13:21:49.804587",
+  "name": "Building Blocks - OGC Building Blocks tutorial examples repository",
+  "abstract": "A set of building blocks introducing capabilities, as a sequence of exercises.\n",
+  "description": "Follow the instructions in the \"About section\" of each building block\n",
+  "modified": "2024-10-23T13:24:46.103180",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"d42a292b30b8f9c89b07edcdc1ce6c98d4a1e6a2",
@@ -126,10 +126,10 @@
     "skos:ConceptScheme",
     "dcat:Catalog"
   ],
-  "skos:prefLabel": "Building Blocks - My OGC Building Blocks repository",
+  "skos:prefLabel": "Building Blocks - OGC Building Blocks tutorial examples repository",
   "hasConcepts": [
     {
-      "itemIdentifier": "ogc.bbr.template.exercise1",
+      "itemIdentifier": "ogc.bbr.tutorial.exercise1",
       "$schema": "metaschema.yaml",
       "name": "Exercise 1",
       "highlighted": true,
@@ -154,8 +154,8 @@
       ],
       "shaclRules": {},
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise1/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise1/schema.json"
+        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise1/schema.yaml",
+        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise1/schema.json"
       },
       "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise1/schema.yaml",
       "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise1/",
@@ -163,15 +163,15 @@
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/template/exercise1/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise1/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/template/exercise1/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise1/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.template.exercise1"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise1"
         }
       },
       "@type": [
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "itemIdentifier": "ogc.bbr.template.exercise2",
+      "itemIdentifier": "ogc.bbr.tutorial.exercise2",
       "$schema": "metaschema.yaml",
       "name": "Exercise 2",
       "highlighted": true,
@@ -206,25 +206,25 @@
       ],
       "shaclRules": {},
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise2/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise2/schema.json"
+        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.yaml",
+        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise2/schema.json"
       },
       "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise2/schema.yaml",
       "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise2/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/template/exercise2/",
+      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise2/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/template/exercise2/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise2/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/template/exercise2/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise2/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.template.exercise2"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise2"
         }
       },
       "@type": [
@@ -234,7 +234,7 @@
       ]
     },
     {
-      "itemIdentifier": "ogc.bbr.template.exercise3",
+      "itemIdentifier": "ogc.bbr.tutorial.exercise3",
       "$schema": "metaschema.yaml",
       "name": "Exercise 3",
       "highlighted": true,
@@ -258,32 +258,32 @@
         "templates"
       ],
       "shaclRules": {
-        "ogc.bbr.template.exercise3": [
+        "ogc.bbr.tutorial.exercise3": [
           "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise3/rules.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise3/context.jsonld",
+      "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise3/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise3/schema.json"
+        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3/schema.yaml",
+        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise3/schema.json"
       },
       "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise3/schema.yaml",
       "sourceLdContext": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise3/context.jsonld",
       "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise3/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/template/exercise3/",
+      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise3/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/template/exercise3/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise3/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/template/exercise3/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise3/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.template.exercise3"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise3"
         }
       },
       "@type": [
@@ -293,7 +293,7 @@
       ]
     },
     {
-      "itemIdentifier": "ogc.bbr.template.exercise4",
+      "itemIdentifier": "ogc.bbr.tutorial.exercise4",
       "$schema": "metaschema.yaml",
       "name": "Exercise 4",
       "highlighted": true,
@@ -317,30 +317,30 @@
         "templates"
       ],
       "shaclRules": {
-        "ogc.bbr.template.exercise4": [
+        "ogc.bbr.tutorial.exercise4": [
           "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise4/rules.shacl"
         ]
       },
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise4/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise4/schema.json"
+        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4/schema.yaml",
+        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4/schema.json"
       },
       "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise4/schema.yaml",
       "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise4/",
       "validationPassed": false,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/template/exercise4/",
+      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise4/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/template/exercise4/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise4/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/template/exercise4/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise4/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.template.exercise4"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise4"
         }
       },
       "@type": [
@@ -350,7 +350,7 @@
       ]
     },
     {
-      "itemIdentifier": "ogc.bbr.template.exercise6",
+      "itemIdentifier": "ogc.bbr.tutorial.exercise6",
       "name": "Exercise 6",
       "abstract": "Profiling an external bblock",
       "status": "under-development",
@@ -371,25 +371,25 @@
       "highlighted": true,
       "shaclRules": {},
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise6/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise6/schema.json"
+        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6/schema.yaml",
+        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6/schema.json"
       },
       "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise6/schema.yaml",
       "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise6/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/template/exercise6/",
+      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise6/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/template/exercise6/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise6/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/template/exercise6/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise6/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.template.exercise6"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise6"
         }
       },
       "@type": [
@@ -399,7 +399,7 @@
       ]
     },
     {
-      "itemIdentifier": "ogc.bbr.template.exercise7",
+      "itemIdentifier": "ogc.bbr.tutorial.exercise7",
       "name": "Exercise 7",
       "abstract": "schema and graph transforms",
       "status": "under-development",
@@ -409,16 +409,16 @@
       "dateOfLastChange": "2024-10-23",
       "highlighted": true,
       "shaclRules": {},
-      "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise7/context.jsonld",
+      "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise7/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise7/schema.json"
+        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/schema.yaml",
+        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/schema.json"
       },
       "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7/schema.yaml",
       "sourceLdContext": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7/context.jsonld",
       "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/template/exercise7/",
+      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise7/",
       "transforms": [
         {
           "id": "prefix-keys",
@@ -554,15 +554,15 @@
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/template/exercise7/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise7/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/template/exercise7/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise7/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.template.exercise7"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise7"
         }
       },
       "@type": [
@@ -572,7 +572,7 @@
       ]
     },
     {
-      "itemIdentifier": "ogc.bbr.template.exercise8",
+      "itemIdentifier": "ogc.bbr.tutorial.exercise8",
       "name": "Exercise 8",
       "abstract": "Transform from CityJSON to TopoFeature",
       "status": "under-development",
@@ -590,7 +590,7 @@
       "shaclRules": {},
       "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise8/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/template/exercise8/",
+      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise8/",
       "transforms": [
         {
           "id": "topo-feature",
@@ -629,15 +629,15 @@
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/template/exercise8/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise8/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/template/exercise8/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise8/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.template.exercise8"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise8"
         }
       },
       "@type": [
@@ -647,7 +647,7 @@
       ]
     },
     {
-      "itemIdentifier": "ogc.bbr.template.mySchema",
+      "itemIdentifier": "ogc.bbr.tutorial.mySchema",
       "$schema": "metaschema.yaml",
       "name": "My Schema",
       "abstract": "An example schema defining the set of properties of any type of object.",
@@ -671,32 +671,32 @@
       ],
       "highlighted": true,
       "shaclRules": {
-        "ogc.bbr.template.mySchema": [
+        "ogc.bbr.tutorial.mySchema": [
           "https://ogcincubator.github.io/bblocks-tutorial/_sources/mySchema/rules.shacl"
         ]
       },
-      "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/mySchema/context.jsonld",
+      "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/mySchema/context.jsonld",
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/mySchema/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/mySchema/schema.json"
+        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/mySchema/schema.yaml",
+        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/mySchema/schema.json"
       },
       "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/mySchema/schema.yaml",
       "sourceLdContext": "https://ogcincubator.github.io/bblocks-tutorial/_sources/mySchema/context.jsonld",
       "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/mySchema/",
       "validationPassed": true,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/template/mySchema/",
+      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/mySchema/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/template/mySchema/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/mySchema/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/template/mySchema/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/mySchema/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.template.mySchema"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.mySchema"
         }
       },
       "@type": [
@@ -706,7 +706,7 @@
       ]
     },
     {
-      "itemIdentifier": "ogc.bbr.template.exercise5",
+      "itemIdentifier": "ogc.bbr.tutorial.exercise5",
       "name": "Exercise 5",
       "abstract": "This example shows a simple customisation for OGC API Feature schemas",
       "status": "under-development",
@@ -734,26 +734,26 @@
       "highlighted": true,
       "shaclRules": {},
       "schema": {
-        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise5/schema.yaml",
-        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise5/schema.json"
+        "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/schema.yaml",
+        "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/schema.json"
       },
       "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise5/schema.yaml",
-      "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise5/context.jsonld",
+      "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/context.jsonld",
       "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise5/",
       "validationPassed": false,
-      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/template/exercise5/",
+      "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise5/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/template/exercise5/index.md"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise5/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/template/exercise5/index.json"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise5/index.json"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.template.exercise5"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise5"
         }
       },
       "@type": [
