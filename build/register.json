@@ -2,7 +2,7 @@
   "name": "My OGC Building Blocks repository",
   "abstract": "This is an example text for the abstract. It should be short and to the point.\nA \"Tell me more\" link will appear if there is an additional description with a longer explanation.\n",
   "description": "The description can be longer. Both **the abstract** *and the description* support Markdown,\nincluding [links](https://google.es).\n",
-  "modified": "2024-10-23T13:18:10.344858",
+  "modified": "2024-10-23T13:21:49.804587",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"d42a292b30b8f9c89b07edcdc1ce6c98d4a1e6a2",
@@ -30,7 +30,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2023-04-05",
+      "dateOfLastChange": "2024-10-23",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -77,7 +77,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2023-04-05",
+      "dateOfLastChange": "2024-10-23",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -125,7 +125,7 @@
       "itemClass": "model",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2023-04-05",
+      "dateOfLastChange": "2024-10-23",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -179,7 +179,7 @@
       "itemClass": "model",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2023-04-05",
+      "dateOfLastChange": "2024-10-23",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -229,7 +229,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2023-05-19",
+      "dateOfLastChange": "2024-10-23",
       "sources": [],
       "maturity": "development",
       "scope": "unstable",
@@ -272,7 +272,7 @@
       "dateTimeAddition": "2024-10-03T11:31:00+02:00",
       "itemClass": "schema",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-03",
+      "dateOfLastChange": "2024-10-23",
       "highlighted": true,
       "shaclRules": {},
       "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise7/context.jsonld",
@@ -441,7 +441,7 @@
       "itemClass": "schema",
       "register": "ogc",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-18",
+      "dateOfLastChange": "2024-10-23",
       "tags": [
         "3D",
         "geometry",
@@ -512,7 +512,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2023-04-05",
+      "dateOfLastChange": "2024-10-23",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -565,7 +565,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2023-05-19",
+      "dateOfLastChange": "2024-10-23",
       "sources": [
         {
           "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",

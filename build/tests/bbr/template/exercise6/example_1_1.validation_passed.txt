@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.exercise6 - Exercise 6
-Generated 2024-10-23T13:18:11.706123+00:00
+Generated 2024-10-23T13:21:51.102307+00:00
 === Files ===
 Using example_1_1.json from examples
 === End Files ===
