@@ -11,7 +11,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-10-21",
+  "dateOfLastChange": "2023-04-05",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -26,11 +26,11 @@
   ],
   "shaclRules": {},
   "schema": {
-    "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise1/schema.yaml",
-    "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise1/schema.json"
+    "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise1/schema.yaml",
+    "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise1/schema.json"
   },
-  "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise1/schema.yaml",
-  "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise1/",
+  "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise1/schema.yaml",
+  "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise1/",
   "validationPassed": true,
   "description": "## Exercise 1\n\nGoal: take a simple JSON schema and test with an example\n\n### Steps\n- un-comment the reference to a local file in [examples.yaml](examples.yaml)\n- run build\n- run viewer\n- navigate to \"Exercise 1\"\n- view validation results at [build-local/...](/register/build-local/tests/bbr/template/exercise1/_report.json)",
   "examples": [

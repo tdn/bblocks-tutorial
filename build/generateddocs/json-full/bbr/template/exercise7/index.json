@@ -8,17 +8,17 @@
   "dateTimeAddition": "2024-10-03T11:31:00+02:00",
   "itemClass": "schema",
   "version": "0.1",
-  "dateOfLastChange": "2024-10-21",
+  "dateOfLastChange": "2024-10-03",
   "highlighted": true,
   "shaclRules": {},
-  "ldContext": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise7/context.jsonld",
+  "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise7/context.jsonld",
   "schema": {
-    "application/yaml": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise7/schema.yaml",
-    "application/json": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise7/schema.json"
+    "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise7/schema.yaml",
+    "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise7/schema.json"
   },
-  "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise7/schema.yaml",
-  "sourceLdContext": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise7/context.jsonld",
-  "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise7/",
+  "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7/schema.yaml",
+  "sourceLdContext": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7/context.jsonld",
+  "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7/",
   "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/template/exercise7/",
   "transforms": [
@@ -26,7 +26,7 @@
       "id": "prefix-keys",
       "description": "Adds a \"PREF\" prefix to all object keys.",
       "type": "jq",
-      "ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise7/transforms/prefix-keys.jq",
+      "ref": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7/transforms/prefix-keys.jq",
       "code": "walk(if type == \"object\" then with_entries( .key |= \"PREF\\(.)\" ) else . end)",
       "inputs": {
         "mediaTypes": [
@@ -59,7 +59,7 @@
       "id": "prefix-predicates",
       "description": "Changes the \"http://example.com/\" prefix of every predicate to a URN",
       "type": "sparql-update",
-      "ref": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/_sources/exercise7/transforms/prefix-predicates.sparql",
+      "ref": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise7/transforms/prefix-predicates.sparql",
       "code": "DELETE {\n  ?s ?p ?o\n}\nINSERT {\n  ?s ?p2 ?o\n}\nWHERE {\n  ?s ?p ?o\n  FILTER(STRSTARTS(STR(?p), \"http://example.com/\"))\n  BIND(URI(REPLACE(STR(?p), \"^http://example.com/\", \"urn:example:ex#\")) as ?p2)\n}",
       "inputs": {
         "mediaTypes": [
@@ -161,23 +161,23 @@
           "language": "json",
           "code": "{\n  \"one\": 1,\n  \"two\": 2,\n  \"string\": \"value\"\n}",
           "transformResults": {
-            "prefix-keys": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/tests/bbr/template/exercise7/transforms/example_1_1.prefix-keys.json",
-            "inline-transform": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/tests/bbr/template/exercise7/transforms/example_1_1.inline-transform.json"
+            "prefix-keys": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/template/exercise7/transforms/example_1_1.prefix-keys.json",
+            "inline-transform": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/template/exercise7/transforms/example_1_1.inline-transform.json"
           },
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/tests/bbr/template/exercise7/example_1_1.json"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/template/exercise7/example_1_1.json"
         },
         {
           "language": "jsonld",
-          "code": "{\n  \"@context\": \"https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise7/context.jsonld\",\n  \"one\": 1,\n  \"two\": 2,\n  \"string\": \"value\"\n}",
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/tests/bbr/template/exercise7/example_1_1.jsonld"
+          "code": "{\n  \"@context\": \"https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise7/context.jsonld\",\n  \"one\": 1,\n  \"two\": 2,\n  \"string\": \"value\"\n}",
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/template/exercise7/example_1_1.jsonld"
         },
         {
           "language": "ttl",
           "code": "@prefix ex: <http://example.com/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] ex:hasOne 1 ;\n    ex:hasString \"value\" ;\n    ex:hasTwo 2 .\n\n",
           "transformResults": {
-            "prefix-predicates": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/tests/bbr/template/exercise7/transforms/example_1_3.prefix-predicates.ttl"
+            "prefix-predicates": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/template/exercise7/transforms/example_1_3.prefix-predicates.ttl"
           },
-          "url": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/tests/bbr/template/exercise7/example_1_1.ttl"
+          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/template/exercise7/example_1_1.ttl"
         }
       ]
     }

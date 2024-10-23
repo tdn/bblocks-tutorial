@@ -22,7 +22,7 @@ schema and graph transforms
 #### jsonld
 ```jsonld
 {
-  "@context": "https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise7/context.jsonld",
+  "@context": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise7/context.jsonld",
   "one": 1,
   "two": 2,
   "string": "value"
@@ -62,8 +62,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise7/schema.json)
-* JSON version: [schema.json](https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise7/schema.yaml)
+* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise7/schema.json)
+* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise7/schema.yaml)
 
 
 # JSON-LD Context
@@ -81,7 +81,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://raw.githubusercontent.com/ogcincubator/bblocks-tutorial/undefined/build/annotated/bbr/template/exercise7/context.jsonld)
+[context.jsonld](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/template/exercise7/context.jsonld)
 
 
 # For developers

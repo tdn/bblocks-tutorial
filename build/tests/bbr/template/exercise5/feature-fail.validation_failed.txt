@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.template.exercise5 - Exercise 5
-Generated 2024-10-21T10:01:12.529211+00:00
+Generated 2024-10-23T13:18:12.091257+00:00
 === General ===
 
 ** Validation error **
