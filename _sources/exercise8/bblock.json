@@ -4,8 +4,8 @@
   "status": "under-development",
   "dateTimeAddition": "2024-10-18T08:31:00Z",
   "itemClass": "schema",
-  "register": "ogc",
+  "register": "building-blocks-tutorial",
   "version": "0.1",
   "dateOfLastChange": "2024-10-18",
-  "tags": ["3D", "geometry", "topology", "cityjson"]
+  "tags": ["building-blocks-tutorial", "3D", "geometry", "topology", "cityjson"]
 }

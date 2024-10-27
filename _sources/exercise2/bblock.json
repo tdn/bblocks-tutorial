@@ -6,7 +6,7 @@
   "status": "under-development",
   "dateTimeAddition": "2023-04-05T00:00:00Z",
   "itemClass": "schema",
-  "register": "ogc-building-block-register",
+  "register": "building-blocks-tutorial",
   "version": "0.1",
   "dateOfLastChange": "2023-04-05",
   "link": "https://github.com/opengeospatial/bblock-template",
@@ -18,7 +18,7 @@
   ],
   "maturity": "mature",
   "scope": "unstable",
-  "tags": [
+  "tags": ["building-blocks-tutorial",
     "templates"
   ]
 }

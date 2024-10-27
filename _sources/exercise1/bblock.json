@@ -1,24 +1,20 @@
 {
   "$schema": "metaschema.yaml",
-  "name": "Exercise 1",
+  "name": "1 - JSON schema and example",
   "highlighted": true,
-  "abstract": "Set an example",
+  "abstract": "Provide and validate an example JSON file.  Shows how the examples management component works and introduces a basic JSON schema.  (Note that building blocks may documented other forms of specification, however JSON schemas support semantic interoperability using available standard approaches and OpenAPI applications, and will be featured in these tutorials.)",
   "status": "under-development",
   "dateTimeAddition": "2023-04-05T00:00:00Z",
   "itemClass": "schema",
-  "register": "ogc-building-block-register",
+  "register": "building-blocks-tutorial",
   "version": "0.1",
   "dateOfLastChange": "2023-04-05",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
-    {
-      "title": "Sample source document",
-      "link": "https://example.com/sources/1"
-    }
   ],
   "maturity": "mature",
   "scope": "unstable",
   "tags": [
-    "templates"
+    "building-blocks-tutorial"
   ]
 }

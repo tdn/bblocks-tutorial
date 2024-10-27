@@ -1,0 +1,13 @@
+$schema: https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/refs/heads/master/ogc/bblocks/schemas/examples.schema.yaml
+
+## List of examples
+examples:
+- title: Reference a local file for examples
+  content: |-
+    [Example from mySchema](../../exercise1/example.json)
+    
+    In **Markdown** format.
+
+#  snippets:
+#    - language: json
+#      ref: ../exercise1/example.json
