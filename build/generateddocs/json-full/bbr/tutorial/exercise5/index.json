@@ -7,9 +7,9 @@
   "status": "under-development",
   "dateTimeAddition": "2023-05-19T00:00:00Z",
   "itemClass": "schema",
-  "register": "ogc-building-block-examples",
+  "register": "building-blocks-tutorial",
   "version": "1.0",
-  "dateOfLastChange": "2024-10-23",
+  "dateOfLastChange": "2024-10-27",
   "sources": [
     {
       "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",
@@ -22,6 +22,7 @@
     "ogc.geo.features.feature"
   ],
   "tags": [
+    "building-blocks-tutorial",
     "feature",
     "examples"
   ],

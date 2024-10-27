@@ -1,0 +1,40 @@
+
+
+{
+  "itemIdentifier": "ogc.bbr.tutorial.exercise0",
+  "$schema": "metaschema.yaml",
+  "name": "0 - Orientation",
+  "highlighted": true,
+  "abstract": "Orientation on the structure of Building Blocks",
+  "status": "under-development",
+  "dateTimeAddition": "2023-04-05T00:00:00Z",
+  "itemClass": "schema",
+  "register": "building-blocks-tutorial",
+  "version": "0.1",
+  "dateOfLastChange": "2024-10-27",
+  "link": "https://github.com/opengeospatial/bblock-template",
+  "sources": [],
+  "maturity": "mature",
+  "scope": "unstable",
+  "tags": [
+    "building-blocks-tutorial"
+  ],
+  "shaclRules": {},
+  "schema": {
+    "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise0/schema.yaml",
+    "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise0/schema.json"
+  },
+  "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise0/schema.yaml",
+  "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise0/",
+  "validationPassed": true,
+  "description": "## Exercise 0 - Orientation\n\nGoal: Understand the mechanics of Building Blocks\n\nIts very easy, but has a few (quite standard) \"moving parts\".\n\nThere are also a **lot** of features and capabilities typical of a specification development and testing cycle that normally require a lot of effort and skills to manage as manual steps, that are integrated into a single workflow - all you need to do is to learn to link these together with the right metadata!\n\nThe tutorial will introduce these in a step-wise fashion - feel free to skip ahead - but if something is not clear please go back to the earlier exercises :-).\n\n### Steps\n1. Read the [Overview documentation](docs/overview) and answer the following questions to guide your discovery process:\n    - How do the underlying [principles](docs/overview/principles) relate to improvement of specifications in your domain? Which best reflect the needs and understandings of your community to improve interoperability?\n    - What [types of building blocks](docs/overview/types) do you need to create\n    - What types of resources are you starting with?\n    - What [registers](docs/overview/registers) contain Building Blocks you can reuse?\n    - What technologies do you want to explore (e.g. JSON schema, JSON-LD, SHACL)\n1. View the online \"build\" and \"repository\" forms of a Building Block register and learn to navigate between the two.  [Watch]()\n1. Learn [how to build](docs/build/local) Building Blocks for reuse from source components.\n    - note if you cannot run locally you can rely on [github automation](docs/build/github) on your own online fork of this tutorial.\n    \n    ",
+  "examples": [
+    {
+      "title": "Reference a local file for examples",
+      "content": "[Example from mySchema](../../exercise1/example.json)\n\nIn **Markdown** format."
+    }
+  ],
+  "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\ndescription: My example schema\ntype: object\nproperties:\n  a:\n    type: string\n    format: uri\n  b:\n    type: number\n  c:\n    type: number\nrequired:\n- a\n- b\n",
+  "gitRepository": "https://github.com/ogcincubator/bblocks-tutorial",
+  "gitPath": "_sources/exercise0"
+}

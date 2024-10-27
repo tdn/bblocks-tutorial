@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.tutorial.exercise6 - Exercise 6
-Generated 2024-10-23T13:24:47.321130+00:00
+Generated 2024-10-27T23:11:49.427126+00:00
 === General ===
 Test was expected to fail and it did.
 === End General ===
