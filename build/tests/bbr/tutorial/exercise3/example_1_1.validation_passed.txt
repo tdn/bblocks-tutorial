@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.tutorial.exercise3 - 3 - Add Semantic Rules
-Generated 2024-10-28T07:23:12.108605+00:00
+Generated 2024-10-28T07:30:15.234398+00:00
 === Files ===
 Using example_1_1.json from examples
 JSON-LD context is present - uplifting
