@@ -1,8 +1,8 @@
 {
-  "title": "Validation report for ogc.bbr.tutorial.exercise2 - Exercise 2",
-  "bblockName": "Exercise 2",
+  "title": "Validation report for ogc.bbr.tutorial.exercise2 - 2 - Add a JSON-LD context",
+  "bblockName": "2 - Add a JSON-LD context",
   "bblockId": "ogc.bbr.tutorial.exercise2",
-  "generated": "2024-10-28T06:31:46.513788+00:00",
+  "generated": "2024-10-28T07:23:12.089858+00:00",
   "result": true,
   "items": [
     {

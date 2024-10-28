@@ -1,9 +1,9 @@
 
-# Exercise 3 (Model)
+# 3 - Add Semantic Rules (Model)
 
 `ogc.bbr.tutorial.exercise3` *v0.1*
 
-Add logical rules
+Add logical rules using SHACL to exploit semantic annotations
 
 [*Status*](http://www.opengis.net/def/status): Under development
 
@@ -11,7 +11,9 @@ Add logical rules
 
 ## Exercise 3
 
-Goal: Validate logical rules
+Goal: Define logical rules to exploit semantic annotation
+
+This will be a basic example that uses the JSON-LD bindings and simple rules.  Note that richer rules can be defined that use referenced semantic models and advanced reasoning, however significant extra functionality is provided simply by being able to identify and operate on schema elements with richer logic languages like SHACL.
 
 ### Steps
 - uncomment line 11 in `rules.shacl` 
@@ -23,7 +25,7 @@ Goal: Validate logical rules
 ## Examples
 
 ### Reference a local file for examples
-[Example from mySchema](../../exercise1/example.json)
+[Example from Exercise  1](/bblock/ogc.bbr.tutorial.exercise1/example)
 
 In **Markdown** format.
 #### json

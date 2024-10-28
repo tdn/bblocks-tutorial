@@ -1,5 +1,5 @@
 
-# Exercise 7 (Schema)
+# 7 - Transforms (Schema)
 
 `ogc.bbr.tutorial.exercise7` *v0.1*
 

@@ -1,9 +1,9 @@
 
-# Exercise 8 (Schema)
+# 8 - Advanced Transform Example (Schema)
 
 `ogc.bbr.tutorial.exercise8` *v0.1*
 
-Transform from CityJSON to TopoFeature
+This example highlights an advanced transform from CityJSON to TopoFeature, showing a range of features interacting to support this complex task.
 
 [*Status*](http://www.opengis.net/def/status): Under development
 

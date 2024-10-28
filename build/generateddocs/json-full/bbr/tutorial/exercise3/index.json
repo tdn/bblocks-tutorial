@@ -3,15 +3,15 @@
 {
   "itemIdentifier": "ogc.bbr.tutorial.exercise3",
   "$schema": "metaschema.yaml",
-  "name": "Exercise 3",
+  "name": "3 - Add Semantic Rules",
   "highlighted": true,
-  "abstract": "Add logical rules",
+  "abstract": "Add logical rules using SHACL to exploit semantic annotations",
   "status": "under-development",
   "dateTimeAddition": "2023-04-05T00:00:00Z",
   "itemClass": "model",
   "register": "building-blocks-tutorial",
   "version": "0.1",
-  "dateOfLastChange": "2023-04-05",
+  "dateOfLastChange": "2024-10-28",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -40,11 +40,11 @@
   "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise3/",
   "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise3/",
-  "description": "## Exercise 3\n\nGoal: Validate logical rules\n\n### Steps\n- uncomment line 11 in `rules.shacl` \n- run build\n- run viewer\n- navigate to \"Exercise 3\"/Validation\n- view validation results on \"about tab\" \n",
+  "description": "## Exercise 3\n\nGoal: Define logical rules to exploit semantic annotation\n\nThis will be a basic example that uses the JSON-LD bindings and simple rules.  Note that richer rules can be defined that use referenced semantic models and advanced reasoning, however significant extra functionality is provided simply by being able to identify and operate on schema elements with richer logic languages like SHACL.\n\n### Steps\n- uncomment line 11 in `rules.shacl` \n- run build\n- run viewer\n- navigate to \"Exercise 3\"/Validation\n- view validation results on \"about tab\" \n",
   "examples": [
     {
       "title": "Reference a local file for examples",
-      "content": "[Example from mySchema](../../exercise1/example.json)\n\nIn **Markdown** format.",
+      "content": "[Example from Exercise  1](/bblock/ogc.bbr.tutorial.exercise1/example)\n\nIn **Markdown** format.",
       "snippets": [
         {
           "language": "json",

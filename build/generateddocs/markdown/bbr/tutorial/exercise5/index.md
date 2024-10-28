@@ -1,5 +1,5 @@
 
-# Exercise 5 (Schema)
+# 5 - Features (Schema)
 
 `ogc.bbr.tutorial.exercise5` *v1.0*
 

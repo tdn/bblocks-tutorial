@@ -34,7 +34,7 @@ The tutorial will introduce these in a step-wise fashion - feel free to skip ahe
 ## Examples
 
 ### Reference a local file for examples
-[Example from mySchema](../../exercise1/example.json)
+[Example from Exercise  1](/bblock/ogc.bbr.tutorial.exercise1/example)
 
 In **Markdown** format.
 ## Schema

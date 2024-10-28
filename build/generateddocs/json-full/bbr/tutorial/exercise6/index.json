@@ -2,14 +2,14 @@
 
 {
   "itemIdentifier": "ogc.bbr.tutorial.exercise6",
-  "name": "Exercise 6",
-  "abstract": "Profiling an external bblock",
+  "name": "6 - Import and extend",
+  "abstract": "Profiling a BBlock from another register",
   "status": "under-development",
   "dateTimeAddition": "2023-05-19T00:00:00Z",
   "itemClass": "schema",
   "register": "building-blocks-tutorial",
   "version": "1.0",
-  "dateOfLastChange": "2023-05-19",
+  "dateOfLastChange": "2024-10-28",
   "sources": [],
   "maturity": "development",
   "scope": "unstable",

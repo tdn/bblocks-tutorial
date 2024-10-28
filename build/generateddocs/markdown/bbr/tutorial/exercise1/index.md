@@ -22,7 +22,7 @@ Goal: take a simple JSON schema and test with an example
 ## Examples
 
 ### Reference a local file for examples
-[Example from mySchema](../../exercise1/example.json)
+[Example from Exercise  1](/bblock/ogc.bbr.tutorial.exercise1/example)
 
 In **Markdown** format.
 ## Schema

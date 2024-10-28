@@ -1,9 +1,9 @@
 
-# Exercise 4 (Model)
+# 4 - Profile a BB (using rules) (Model)
 
 `ogc.bbr.tutorial.exercise4` *v0.1*
 
-Profile with rules
+Profile another Building Block with additional constraint rules
 
 [*Status*](http://www.opengis.net/def/status): Under development
 

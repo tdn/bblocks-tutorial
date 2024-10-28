@@ -1,9 +1,9 @@
 
-# Exercise 6 (Schema)
+# 6 - Import and extend (Schema)
 
 `ogc.bbr.tutorial.exercise6` *v1.0*
 
-Profiling an external bblock
+Profiling a BBlock from another register
 
 [*Status*](http://www.opengis.net/def/status): Under development
 
