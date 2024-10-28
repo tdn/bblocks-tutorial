@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.tutorial.exercise5 - Exercise 5
-Generated 2024-10-27T23:11:49.806940+00:00
+Generated 2024-10-28T06:31:47.022590+00:00
 === Files ===
 Using example_1_1.json from examples
 JSON-LD context is present - uplifting

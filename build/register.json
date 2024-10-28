@@ -2,7 +2,7 @@
   "name": "OGC Building Blocks tutorial examples repository",
   "abstract": "A set of building blocks introducing capabilities, as a sequence of exercises.\n",
   "description": "Follow the instructions in the \"About section\" of each building block\n",
-  "modified": "2024-10-27T23:11:48.074273",
+  "modified": "2024-10-28T06:31:44.795938",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"d42a292b30b8f9c89b07edcdc1ce6c98d4a1e6a2",
@@ -30,7 +30,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-27",
+      "dateOfLastChange": "2023-04-05",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [],
       "maturity": "mature",
@@ -72,7 +72,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-27",
+      "dateOfLastChange": "2023-04-05",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [],
       "maturity": "mature",
@@ -114,7 +114,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-27",
+      "dateOfLastChange": "2023-04-05",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -163,7 +163,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-27",
+      "dateOfLastChange": "2023-04-05",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -218,7 +218,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-27",
+      "dateOfLastChange": "2023-04-05",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -269,7 +269,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "1.0",
-      "dateOfLastChange": "2024-10-27",
+      "dateOfLastChange": "2023-05-19",
       "sources": [],
       "maturity": "development",
       "scope": "unstable",
@@ -313,7 +313,7 @@
       "dateTimeAddition": "2024-10-03T11:31:00+02:00",
       "itemClass": "schema",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-27",
+      "dateOfLastChange": "2024-10-03",
       "highlighted": true,
       "shaclRules": {},
       "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/context.jsonld",
@@ -482,7 +482,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-27",
+      "dateOfLastChange": "2024-10-18",
       "tags": [
         "building-blocks-tutorial",
         "3D",
@@ -554,7 +554,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2024-10-27",
+      "dateOfLastChange": "2023-04-05",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -608,7 +608,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "1.0",
-      "dateOfLastChange": "2024-10-27",
+      "dateOfLastChange": "2023-05-19",
       "sources": [
         {
           "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",
