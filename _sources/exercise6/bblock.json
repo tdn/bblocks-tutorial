@@ -1,6 +1,6 @@
 {
-  "name": "Exercise 6",
-  "abstract": "Profiling an external bblock",
+  "name": "6 - Import and extend",
+  "abstract": "Profiling a BBlock from another register",
   "status": "under-development",
   "dateTimeAddition": "2023-05-19T00:00:00Z",
   "itemClass": "schema",

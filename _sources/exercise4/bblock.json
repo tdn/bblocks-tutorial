@@ -1,8 +1,8 @@
 {
   "$schema": "metaschema.yaml",
-  "name": "Exercise 4",
+  "name": "4 - Profile a BB (using rules)",
   "highlighted": true,
-  "abstract": "Profile with rules",
+  "abstract": "Profile another Building Block with additional constraint rules",
   "status": "under-development",
   "dateTimeAddition": "2023-04-05T00:00:00Z",
   "itemClass": "model",

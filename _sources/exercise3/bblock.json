@@ -1,8 +1,8 @@
 {
   "$schema": "metaschema.yaml",
-  "name": "Exercise 3",
+  "name": "3 - Add Semantic Rules",
   "highlighted": true,
-  "abstract": "Add logical rules",
+  "abstract": "Add logical rules using SHACL to exploit semantic annotations",
   "status": "under-development",
   "dateTimeAddition": "2023-04-05T00:00:00Z",
   "itemClass": "model",
