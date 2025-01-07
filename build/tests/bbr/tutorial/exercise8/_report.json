@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.tutorial.exercise8 - 8 - Advanced Transform Example",
   "bblockName": "8 - Advanced Transform Example",
   "bblockId": "ogc.bbr.tutorial.exercise8",
-  "generated": "2024-10-28T07:30:15.401409+00:00",
+  "generated": "2025-01-07T09:25:50.764497+00:00",
   "result": true,
   "items": [
     {
@@ -13,7 +13,7 @@
         "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise8/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
-        "language": "json"
+        "language": "application/json"
       },
       "result": true,
       "sections": [
@@ -37,7 +37,7 @@
         "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise8/example_2_1.json",
         "exampleIndex": 2,
         "snippetIndex": 1,
-        "language": "json"
+        "language": "application/json"
       },
       "result": true,
       "sections": [

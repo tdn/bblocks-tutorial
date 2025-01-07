@@ -20,7 +20,7 @@ There are also a **lot** of features and capabilities typical of a specification
 The tutorial will introduce these in a step-wise fashion - feel free to skip ahead - but if something is not clear please go back to the earlier exercises :-).
 
 ### Steps
-1. Read the [Overview documentation](https://ogcincubator.github.io/bblocks-docs/overview) and answer the following questions to guide your discovery process:
+1. Read the [Overview documentation](https://ogcincubator.github.io/bblocks-docs) and answer the following questions to guide your discovery process:
     - How do the underlying [principles](https://ogcincubator.github.io/bblocks-docs/overview/principles) relate to improvement of specifications in your domain? Which best reflect the needs and understandings of your community to improve interoperability?
     - What [types of building blocks](https://ogcincubator.github.io/bblocks-docs/overview/types) do you need to create
     - What types of resources are you starting with?

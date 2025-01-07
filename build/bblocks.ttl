@@ -13,14 +13,14 @@
     rdfs:label "0 - Orientation" ;
     dct:abstract "Orientation on the structure of Building Blocks" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise0/index.json" ],
+        [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise0/index.md" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise0" ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise0/index.json" ] ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise0" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-28"^^xsd:date ;
+    dct:modified "2025-01-07"^^xsd:date ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial" ;
     bblocks:hasSchema <https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise0/schema.json>,
@@ -34,14 +34,14 @@
     rdfs:label "1 - JSON schema and example" ;
     dct:abstract "Provide and validate an example JSON file.  Shows how the examples management component works and introduces a basic JSON schema.  (Note that building blocks may documented other forms of specification, however JSON schemas support semantic interoperability using available standard approaches and OpenAPI applications, and will be featured in these tutorials.)" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise1/index.json" ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise1/index.md" ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise1" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise1/index.md" ] ;
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise1/index.json" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-28"^^xsd:date ;
+    dct:modified "2025-01-07"^^xsd:date ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial" ;
     bblocks:hasSchema <https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise1/schema.json>,
@@ -57,12 +57,12 @@
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise2/index.json" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise2" ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise2/index.md" ] ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise2/index.md" ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise2" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-28"^^xsd:date ;
+    dct:modified "2025-01-07"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial",
@@ -78,14 +78,14 @@
     rdfs:label "3 - Add Semantic Rules" ;
     dct:abstract "Add logical rules using SHACL to exploit semantic annotations" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise3/index.md" ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise3" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise3/index.md" ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise3/index.json" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-28"^^xsd:date ;
+    dct:modified "2025-01-07"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial",
@@ -104,14 +104,14 @@
     rdfs:label "4 - Profile a BB (using rules)" ;
     dct:abstract "Profile another Building Block with additional constraint rules" ;
     dct:created "2023-04-05T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise4/index.json" ],
+        [ dct:format "text/markdown" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise4/index.md" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise4" ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise4/index.json" ] ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise4" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-28"^^xsd:date ;
+    dct:modified "2025-01-07"^^xsd:date ;
     dct:source <https://example.com/sources/1> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial",
@@ -130,12 +130,12 @@
     dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise5/index.json" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise5/index.md" ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise5" ] ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise5" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise5/index.md" ] ;
     dct:hasVersion "1.0" ;
-    dct:modified "2024-10-28"^^xsd:date ;
+    dct:modified "2025-01-07"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r3/17-069r3.html#_response_7> ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial",
@@ -154,14 +154,14 @@
     rdfs:label "6 - Import and extend" ;
     dct:abstract "Profiling a BBlock from another register" ;
     dct:created "2023-05-19T00:00:00+00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise6/index.md" ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise6" ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise6/index.json" ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise6" ] ;
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise6/index.md" ] ;
     dct:hasVersion "1.0" ;
-    dct:modified "2024-10-28"^^xsd:date ;
+    dct:modified "2025-01-07"^^xsd:date ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-tutorial/> ;
     dcat:keyword "building-blocks-tutorial",
         "examples",
@@ -184,7 +184,7 @@
         [ dct:format "application/json" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise7/index.json" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-28"^^xsd:date ;
+    dct:modified "2025-01-07"^^xsd:date ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-tutorial/> ;
     bblocks:hasJsonLdContext <https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/context.jsonld> ;
     bblocks:hasSchema <https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/schema.json>,
@@ -200,12 +200,12 @@
     dct:created "2024-10-18T08:31:00+00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/bblock/ogc.bbr.tutorial.exercise8" ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise8/index.md" ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise8/index.json" ] ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/json-full/bbr/tutorial/exercise8/index.json" ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy "https://ogcincubator.github.io/bblocks-tutorial/build/generateddocs/markdown/bbr/tutorial/exercise8/index.md" ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2024-10-28"^^xsd:date ;
+    dct:modified "2025-01-07"^^xsd:date ;
     skos:inScheme <https://ogcincubator.github.io/bblocks-tutorial/> ;
     dcat:keyword "3D",
         "building-blocks-tutorial",
@@ -230,11 +230,11 @@
     bblocks:imports <https://opengeospatial.github.io/bblocks/register.json> .
 
 [] a prov:Activity ;
-    prov:endedAtTime "2024-10-28T07:30:15.729480"^^xsd:dateTime ;
-    prov:startedAtTime "2024-10-28T07:30:15.648319"^^xsd:dateTime ;
+    prov:endedAtTime "2025-01-07T09:25:51.087313"^^xsd:dateTime ;
+    prov:startedAtTime "2025-01-07T09:25:51.005968"^^xsd:dateTime ;
     prov:used [ a prov:Entity ;
             dct:format "application/json" ;
-            dct:hasVersion "git:15474d7bbfe27a0fc100c27e510d056413845e63" ;
+            dct:hasVersion "git:7b6e943e1c31c80af85216e6e62f0f20a353c27c" ;
             rdfs:seeAlso <https://ogcincubator.github.io/bblocks-tutorial/build/register.json> ],
         [ a prov:Entity ;
             dct:format "application/yaml" ;
@@ -242,6 +242,6 @@
     prov:wasAssociatedWith [ a prov:Agent,
                 schema:SoftwareApplication ;
             rdfs:label "OGC-NA tools" ;
-            dct:hasVersion "0.3.54" ;
+            dct:hasVersion "0.3.55" ;
             rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> ] .
 

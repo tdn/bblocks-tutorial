@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.tutorial.exercise5 - 5 - Features",
   "bblockName": "5 - Features",
   "bblockId": "ogc.bbr.tutorial.exercise5",
-  "generated": "2024-10-28T07:30:15.630254+00:00",
+  "generated": "2025-01-07T09:25:50.987505+00:00",
   "result": false,
   "items": [
     {
@@ -77,7 +77,7 @@
         "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise5/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
-        "language": "json"
+        "language": "application/json"
       },
       "result": true,
       "sections": [
@@ -132,7 +132,7 @@
         "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise5/example_1_2.yaml",
         "exampleIndex": 1,
         "snippetIndex": 2,
-        "language": "yaml"
+        "language": "application/x-yaml"
       },
       "result": true,
       "sections": [

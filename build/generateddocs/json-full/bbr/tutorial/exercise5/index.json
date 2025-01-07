@@ -9,7 +9,7 @@
   "itemClass": "schema",
   "register": "building-blocks-tutorial",
   "version": "1.0",
-  "dateOfLastChange": "2024-10-28",
+  "dateOfLastChange": "2025-01-07",
   "sources": [
     {
       "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",
@@ -36,6 +36,9 @@
   "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise5/schema.yaml",
   "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/context.jsonld",
   "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise5/",
+  "rdfData": [
+    "https://ogcincubator.github.io/bblocks-tutorial/data.ttl"
+  ],
   "validationPassed": false,
   "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise5/",
   "description": "## Using a standard container\n\nThis is an **interoperable** approach to packaging a data model in a standardised structure.\n\ni.e. the attributes (properties) are managed independently of the packaging container (Feature) \n\nIn this case we use the schema from the previous examples.\n\nThis building block **inherits** reusable semantic annotations from a common library, simplifying implementation.\n\n### Steps\n- uncomment the reference to the previous exercise schema in schema.yaml\n- run build, view etc\n- examine \"Semantic Uplift\" and note that event though no `context.jsonld` is present the building block inherits and combines the two building blocks semantic annotations.\n\n\n\n",

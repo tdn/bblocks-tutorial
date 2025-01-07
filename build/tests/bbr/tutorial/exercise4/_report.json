@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.bbr.tutorial.exercise4 - 4 - Profile a BB (using rules)",
   "bblockName": "4 - Profile a BB (using rules)",
   "bblockId": "ogc.bbr.tutorial.exercise4",
-  "generated": "2024-10-28T07:30:15.243464+00:00",
+  "generated": "2025-01-07T09:25:50.603849+00:00",
   "result": false,
   "items": [
     {
@@ -13,7 +13,7 @@
         "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise4/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
-        "language": "json"
+        "language": "application/json"
       },
       "result": false,
       "sections": [
