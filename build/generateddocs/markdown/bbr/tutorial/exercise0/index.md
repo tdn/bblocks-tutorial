@@ -22,15 +22,22 @@ The tutorial will introduce these in a step-wise fashion - feel free to skip ahe
 ### Steps
 1. Read the [Overview documentation](https://ogcincubator.github.io/bblocks-docs) and answer the following questions to guide your discovery process:
     - How do the underlying [principles](https://ogcincubator.github.io/bblocks-docs/overview/principles) relate to improvement of specifications in your domain? Which best reflect the needs and understandings of your community to improve interoperability?
-    - What [types of building blocks](https://ogcincubator.github.io/bblocks-docs/overview/types) do you need to create
+    - What [types of building blocks](https://ogcincubator.github.io/bblocks-docs/overview/types) do you need to create? (e.g. schemas, APIs, ontologies etc?)
     - What types of resources are you starting with?
     - What [registers](https://ogcincubator.github.io/bblocks-docs/overview/registers) contain Building Blocks you can reuse?
     - What technologies do you want to explore (e.g. JSON schema, JSON-LD, SHACL)
 1. View the online "build" and "repository" forms of a Building Block register and learn to navigate between the two.  [Watch]()
 1. Learn [how to build](https://ogcincubator.github.io/bblocks-docs/build/local) Building Blocks for reuse from source components.
     - note if you cannot run locally you can rely on [github automation](https://ogcincubator.github.io/bblocks-docs/build/github) on your own online fork of this tutorial.
+
+### Schema or model?
+
+Schemas express data models in a specific structure - Building Blocks can combine or separate these different aspects:
+- Exercises 1-8 show how JSON schemas can be modularised and semantically annotated.
+- Exercise 9 shows an ontology-only based building block with no defined schema that can be reused by multiple alternative schemas. 
+- Exercise 10 shows how an ontology may be constrained for use in a particular context, to document assumptions that may be relevant, for example a subset expressible in a particular schema.
     
-    
+
 ## Examples
 
 ### Reference a local file for examples
