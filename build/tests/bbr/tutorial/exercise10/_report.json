@@ -1,0 +1,184 @@
+{
+  "title": "Validation report for ogc.bbr.tutorial.exercise10 - 10 - Profiling an Ontology",
+  "bblockName": "10 - Profiling an Ontology",
+  "bblockId": "ogc.bbr.tutorial.exercise10",
+  "generated": "2025-01-13T12:53:34.401864+00:00",
+  "result": true,
+  "items": [
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "_sources/exercise10/tests/example-fail.ttl",
+        "url": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise10/tests/example-fail.ttl",
+        "language": "ttl"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using example-fail.ttl from test resources"
+            }
+          ]
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": [
+            {
+              "op": "shacl-report",
+              "shaclFile": "_sources/exercise10/rules.shacl",
+              "graph": "@prefix : <https://w3id.org/example#> .\n@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms false ;\n    sh:result [ a sh:ValidationResult ;\n            sh:focusNode <https://w3id.org/example-data#Fred> ;\n            sh:resultPath :partOf ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:QualifiedMinCountConstraintComponent ;\n            sh:sourceShape [ sh:path :partOf ;\n                    sh:qualifiedMinCount 1 ;\n                    sh:qualifiedValueShape [ sh:class :Association ] ] ] .\n\n",
+              "isError": true,
+              "message": "Validation result for _sources/exercise10/rules.shacl:\n  Validation Report\n  Conforms: False\n  Results (1):\n  Constraint Violation in QualifiedValueShapeConstraintComponent (http://www.w3.org/ns/shacl#QualifiedMinCountConstraintComponent):\n  \tSeverity: sh:Violation\n  \tSource Shape: [ sh:path :partOf ; sh:qualifiedMinCount Literal(\"1\", datatype=xsd:integer) ; sh:qualifiedValueShape [ sh:class :Association ] ]\n  \tFocus Node: eg:Fred\n  \tResult Path: :partOf\n  "
+            },
+            {
+              "shaclFile": "_sources/exercise10/rules.shacl",
+              "focusNodes": {
+                "<https://www.ogc.org/rules/template/#testValues>/sh:property/sh:qualifiedValueShape": {
+                  "nodes": []
+                },
+                "<https://www.ogc.org/rules/template/#testValues>": {
+                  "nodes": [
+                    "eg:Fred"
+                  ]
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for _sources/exercise10/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>/sh:property/sh:qualifiedValueShape: *none*\n - Shape <https://www.ogc.org/rules/template/#testValues>/sh:property/sh:qualifiedValueShape: *none*\n - Shape <https://www.ogc.org/rules/template/#testValues>: eg:Fred\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "_sources/exercise9/rules.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for _sources/exercise9/rules.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "_sources/exercise9/rules.shacl",
+              "focusNodes": {
+                "<https://www.ogc.org/rules/template/#testValues>": {
+                  "nodes": [
+                    "eg:Fred"
+                  ]
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for _sources/exercise9/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: eg:Fred\n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "EXAMPLE",
+        "requireFail": false,
+        "filename": "build/tests/bbr/tutorial/exercise10/example_1_1.ttl",
+        "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise10/example_1_1.ttl",
+        "exampleIndex": 1,
+        "snippetIndex": 1,
+        "language": "text/turtle"
+      },
+      "result": true,
+      "sections": [
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using example_1_1.ttl from examples"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "example_1_1.ttl",
+              "size": 9,
+              "isError": false,
+              "message": "Output Turtle example_1_1.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "TURTLE",
+          "title": "Turtle",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Prefixes are defined for mynamespace"
+            }
+          ]
+        },
+        {
+          "name": "SHACL",
+          "title": "SHACL",
+          "entries": [
+            {
+              "op": "shacl-report",
+              "shaclFile": "_sources/exercise10/rules.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for _sources/exercise10/rules.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "_sources/exercise10/rules.shacl",
+              "focusNodes": {
+                "<https://www.ogc.org/rules/template/#testValues>/sh:property/sh:qualifiedValueShape": {
+                  "nodes": []
+                },
+                "<https://www.ogc.org/rules/template/#testValues>": {
+                  "nodes": [
+                    "eg:Fred"
+                  ]
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for _sources/exercise10/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>/sh:property/sh:qualifiedValueShape: *none*\n - Shape <https://www.ogc.org/rules/template/#testValues>/sh:property/sh:qualifiedValueShape: *none*\n - Shape <https://www.ogc.org/rules/template/#testValues>: eg:Fred\n"
+            },
+            {
+              "op": "shacl-report",
+              "shaclFile": "_sources/exercise9/rules.shacl",
+              "graph": "@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms true .\n\n",
+              "isError": false,
+              "message": "Validation result for _sources/exercise9/rules.shacl:\n  Validation Report\n  Conforms: True\n  "
+            },
+            {
+              "shaclFile": "_sources/exercise9/rules.shacl",
+              "focusNodes": {
+                "<https://www.ogc.org/rules/template/#testValues>": {
+                  "nodes": [
+                    "eg:Fred"
+                  ]
+                }
+              },
+              "isError": false,
+              "message": "Focus nodes for _sources/exercise9/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: eg:Fred\n"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "globalErrors": {},
+  "counts": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0
+  }
+}
