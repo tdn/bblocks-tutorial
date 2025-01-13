@@ -1,0 +1,27 @@
+{
+  "$schema": "metaschema.yaml",
+  "name": "10 - Profiling an Ontology",
+  "highlighted": true,
+  "abstract": "Often data models and schemas are re-used with specific constraints - i.e. as a profile. This example shows how using building blocks allows inheritance of rules from a base ontology and addition of such constraints using SHACL.",
+  "status": "under-development",
+  "dateTimeAddition": "2023-04-05T00:00:00Z",
+  "itemClass": "model",
+  "register": "building-blocks-tutorial",
+  "version": "0.1",
+  "dateOfLastChange": "2023-04-05",
+  "dependsOn": [
+    "ogc.bbr.tutorial.exercise9"
+  ],
+  "sources": [
+    {
+      "title": "Sample source document",
+      "link": "https://example.com/sources/1"
+    }
+  ],
+  "maturity": "mature",
+  "scope": "unstable",
+  "tags": [
+    "building-blocks-tutorial",
+    "templates"
+  ]
+}
