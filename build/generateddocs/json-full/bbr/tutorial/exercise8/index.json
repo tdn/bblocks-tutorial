@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "building-blocks-tutorial",
   "version": "0.1",
-  "dateOfLastChange": "2025-01-13",
+  "dateOfLastChange": "2025-03-19",
   "tags": [
     "building-blocks-tutorial",
     "3D",
@@ -20,9 +20,7 @@
   ],
   "shaclRules": {},
   "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise8/",
-  "rdfData": [
-    "https://ogcincubator.github.io/bblocks-tutorial/data.ttl"
-  ],
+  "rdfData": [],
   "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise8/",
   "transforms": [

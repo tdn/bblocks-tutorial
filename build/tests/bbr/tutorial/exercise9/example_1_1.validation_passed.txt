@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.tutorial.exercise9 - 9 - Schema-agnostic (Semantic) Building Block
-Generated 2025-01-13T12:53:34.081510+00:00
+Generated 2025-03-19T11:42:20.384663+00:00
 === Files ===
 Using example_1_1.ttl from examples
 Output Turtle example_1_1.ttl created
