@@ -3,7 +3,7 @@
 {
   "itemIdentifier": "ogc.bbr.tutorial.exercise4",
   "$schema": "metaschema.yaml",
-  "name": "4 - Profile a BB (using rules)",
+  "name": "04 - Profile a BB (using rules)",
   "highlighted": true,
   "abstract": "Profile another Building Block with additional constraint rules",
   "status": "under-development",
@@ -11,7 +11,7 @@
   "itemClass": "model",
   "register": "building-blocks-tutorial",
   "version": "0.1",
-  "dateOfLastChange": "2025-03-19",
+  "dateOfLastChange": "2025-03-20",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {

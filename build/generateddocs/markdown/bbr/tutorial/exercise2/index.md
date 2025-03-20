@@ -1,5 +1,5 @@
 
-# 2 - Add a JSON-LD context (Schema)
+# 02 - Add a JSON-LD context (Schema)
 
 `ogc.bbr.tutorial.exercise2` *v0.1*
 

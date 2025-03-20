@@ -1,5 +1,5 @@
 
-# 3 - Add Semantic Rules (Model)
+# 03 - Add Semantic Rules (Model)
 
 `ogc.bbr.tutorial.exercise3` *v0.1*
 

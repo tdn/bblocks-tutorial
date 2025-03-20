@@ -1,5 +1,5 @@
 
-# 8 - Advanced Transform Example (Schema)
+# 08 - Advanced Transform Example (Schema)
 
 `ogc.bbr.tutorial.exercise8` *v0.1*
 

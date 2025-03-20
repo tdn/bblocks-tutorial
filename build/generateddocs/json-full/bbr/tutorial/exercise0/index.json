@@ -3,7 +3,7 @@
 {
   "itemIdentifier": "ogc.bbr.tutorial.exercise0",
   "$schema": "metaschema.yaml",
-  "name": "0 - Orientation",
+  "name": "00 - Orientation",
   "highlighted": true,
   "abstract": "Orientation on the structure of Building Blocks",
   "status": "under-development",
@@ -11,7 +11,7 @@
   "itemClass": "schema",
   "register": "building-blocks-tutorial",
   "version": "0.1",
-  "dateOfLastChange": "2025-03-19",
+  "dateOfLastChange": "2025-03-20",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [],
   "maturity": "mature",

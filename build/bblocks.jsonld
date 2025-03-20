@@ -106,7 +106,7 @@
   "name": "Building Blocks - OGC Building Blocks tutorial examples repository",
   "abstract": "A set of building blocks introducing capabilities, as a sequence of exercises.\n",
   "description": "Follow the instructions in the \"About section\" of each building block\n",
-  "modified": "2025-03-19T11:42:18.971220",
+  "modified": "2025-03-20T11:54:14.495664",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"e8df6b22cb38da4f600f3a0292c58fdef7734f97",
@@ -131,7 +131,7 @@
     {
       "itemIdentifier": "ogc.bbr.tutorial.exercise0",
       "$schema": "metaschema.yaml",
-      "name": "0 - Orientation",
+      "name": "00 - Orientation",
       "highlighted": true,
       "abstract": "Orientation on the structure of Building Blocks",
       "status": "under-development",
@@ -139,7 +139,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2025-03-19",
+      "dateOfLastChange": "2025-03-20",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [],
       "maturity": "mature",
@@ -179,7 +179,7 @@
     {
       "itemIdentifier": "ogc.bbr.tutorial.exercise1",
       "$schema": "metaschema.yaml",
-      "name": "1 - JSON schema and example",
+      "name": "01 - JSON schema with example",
       "highlighted": true,
       "abstract": "Provide and validate an example JSON file.  Shows how the examples management component works and introduces a basic JSON schema.  (Note that building blocks may documented other forms of specification, however JSON schemas support semantic interoperability using available standard approaches and OpenAPI applications, and will be featured in these tutorials.)",
       "status": "under-development",
@@ -187,7 +187,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2025-03-19",
+      "dateOfLastChange": "2025-03-20",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [],
       "maturity": "mature",
@@ -227,7 +227,7 @@
     {
       "itemIdentifier": "ogc.bbr.tutorial.exercise9",
       "$schema": "metaschema.yaml",
-      "name": "9 - Schema-agnostic (Semantic) Building Block",
+      "name": "09 - Schema-agnostic (Semantic) Building Block",
       "highlighted": true,
       "abstract": "A building block defining a building block for a data model described in ontology standards OWL and SHACL.  Such a building block allows logical constraints to be inherited by multiple implementation schemas using semantic annotations (such as JSON-LD)",
       "status": "under-development",
@@ -235,7 +235,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2025-03-19",
+      "dateOfLastChange": "2025-03-20",
       "sources": [
         {
           "title": "Sample source document",
@@ -281,7 +281,7 @@
     {
       "itemIdentifier": "ogc.bbr.tutorial.exercise2",
       "$schema": "metaschema.yaml",
-      "name": "2 - Add a JSON-LD context",
+      "name": "02 - Add a JSON-LD context",
       "highlighted": true,
       "abstract": "Semantically annotate a schema by adding a simple JSON-LD context",
       "status": "under-development",
@@ -289,7 +289,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2025-03-19",
+      "dateOfLastChange": "2025-03-20",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -336,7 +336,7 @@
     {
       "itemIdentifier": "ogc.bbr.tutorial.exercise3",
       "$schema": "metaschema.yaml",
-      "name": "3 - Add Semantic Rules",
+      "name": "03 - Add Semantic Rules",
       "highlighted": true,
       "abstract": "Add logical rules using SHACL to exploit semantic annotations",
       "status": "under-development",
@@ -344,7 +344,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2025-03-19",
+      "dateOfLastChange": "2025-03-20",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -397,7 +397,7 @@
     {
       "itemIdentifier": "ogc.bbr.tutorial.exercise4",
       "$schema": "metaschema.yaml",
-      "name": "4 - Profile a BB (using rules)",
+      "name": "04 - Profile a BB (using rules)",
       "highlighted": true,
       "abstract": "Profile another Building Block with additional constraint rules",
       "status": "under-development",
@@ -405,7 +405,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2025-03-19",
+      "dateOfLastChange": "2025-03-20",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -455,14 +455,14 @@
     },
     {
       "itemIdentifier": "ogc.bbr.tutorial.exercise6",
-      "name": "6 - Import and extend",
+      "name": "06 - Import and extend",
       "abstract": "Profiling a BBlock from another register",
       "status": "under-development",
       "dateTimeAddition": "2023-05-19T00:00:00Z",
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "1.0",
-      "dateOfLastChange": "2025-03-19",
+      "dateOfLastChange": "2025-03-20",
       "sources": [],
       "maturity": "development",
       "scope": "unstable",
@@ -506,13 +506,13 @@
     },
     {
       "itemIdentifier": "ogc.bbr.tutorial.exercise7",
-      "name": "7 - Transforms",
+      "name": "07 - Transforms",
       "abstract": "schema and graph transforms",
       "status": "under-development",
       "dateTimeAddition": "2024-10-03T11:31:00+02:00",
       "itemClass": "schema",
       "version": "0.1",
-      "dateOfLastChange": "2025-03-19",
+      "dateOfLastChange": "2025-03-20",
       "highlighted": true,
       "shaclRules": {},
       "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/context.jsonld",
@@ -680,7 +680,7 @@
     },
     {
       "itemIdentifier": "ogc.bbr.tutorial.exercise8",
-      "name": "8 - Advanced Transform Example",
+      "name": "08 - Advanced Transform Example",
       "highlighted": true,
       "abstract": "This example highlights an advanced transform from CityJSON to TopoFeature, showing a range of features interacting to support this complex task.",
       "status": "under-development",
@@ -688,7 +688,7 @@
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2025-03-19",
+      "dateOfLastChange": "2025-03-20",
       "tags": [
         "building-blocks-tutorial",
         "3D",
@@ -767,7 +767,7 @@
       "itemClass": "model",
       "register": "building-blocks-tutorial",
       "version": "0.1",
-      "dateOfLastChange": "2025-03-19",
+      "dateOfLastChange": "2025-03-20",
       "dependsOn": [
         "ogc.bbr.tutorial.exercise9"
       ],
@@ -817,14 +817,14 @@
     },
     {
       "itemIdentifier": "ogc.bbr.tutorial.exercise5",
-      "name": "5 - Features",
+      "name": "05 - Features",
       "abstract": "This example shows a simple customisation for OGC API Feature schemas",
       "status": "under-development",
       "dateTimeAddition": "2023-05-19T00:00:00Z",
       "itemClass": "schema",
       "register": "building-blocks-tutorial",
       "version": "1.0",
-      "dateOfLastChange": "2025-03-19",
+      "dateOfLastChange": "2025-03-20",
       "sources": [
         {
           "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",

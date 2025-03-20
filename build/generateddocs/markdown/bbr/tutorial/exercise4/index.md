@@ -1,5 +1,5 @@
 
-# 4 - Profile a BB (using rules) (Model)
+# 04 - Profile a BB (using rules) (Model)
 
 `ogc.bbr.tutorial.exercise4` *v0.1*
 

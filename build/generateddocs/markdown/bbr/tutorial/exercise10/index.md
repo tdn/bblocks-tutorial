@@ -9,7 +9,7 @@ Often data models and schemas are re-used with specific constraints - i.e. as a 
 
 ## Description
 
-## Exercise 4
+## Exercise 10
 
 Goal: Define a Building Block for a semantic data model
 

@@ -2,7 +2,7 @@
 
 {
   "itemIdentifier": "ogc.bbr.tutorial.exercise8",
-  "name": "8 - Advanced Transform Example",
+  "name": "08 - Advanced Transform Example",
   "highlighted": true,
   "abstract": "This example highlights an advanced transform from CityJSON to TopoFeature, showing a range of features interacting to support this complex task.",
   "status": "under-development",
@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "building-blocks-tutorial",
   "version": "0.1",
-  "dateOfLastChange": "2025-03-19",
+  "dateOfLastChange": "2025-03-20",
   "tags": [
     "building-blocks-tutorial",
     "3D",

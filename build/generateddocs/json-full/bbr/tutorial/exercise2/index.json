@@ -3,7 +3,7 @@
 {
   "itemIdentifier": "ogc.bbr.tutorial.exercise2",
   "$schema": "metaschema.yaml",
-  "name": "2 - Add a JSON-LD context",
+  "name": "02 - Add a JSON-LD context",
   "highlighted": true,
   "abstract": "Semantically annotate a schema by adding a simple JSON-LD context",
   "status": "under-development",
@@ -11,7 +11,7 @@
   "itemClass": "schema",
   "register": "building-blocks-tutorial",
   "version": "0.1",
-  "dateOfLastChange": "2025-03-19",
+  "dateOfLastChange": "2025-03-20",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {

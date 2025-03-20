@@ -1,5 +1,5 @@
 
-# 9 - Schema-agnostic (Semantic) Building Block (Model)
+# 09 - Schema-agnostic (Semantic) Building Block (Model)
 
 `ogc.bbr.tutorial.exercise9` *v0.1*
 
@@ -9,7 +9,7 @@ A building block defining a building block for a data model described in ontolog
 
 ## Description
 
-## Exercise 4
+## Exercise 9
 
 Goal: Define a Building Block for a semantic data model
 

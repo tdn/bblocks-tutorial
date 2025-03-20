@@ -1,5 +1,5 @@
 
-# 1 - JSON schema and example (Schema)
+# 01 - JSON schema with example (Schema)
 
 `ogc.bbr.tutorial.exercise1` *v0.1*
 

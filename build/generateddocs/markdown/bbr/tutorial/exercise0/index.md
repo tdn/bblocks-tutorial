@@ -1,5 +1,5 @@
 
-# 0 - Orientation (Schema)
+# 00 - Orientation (Schema)
 
 `ogc.bbr.tutorial.exercise0` *v0.1*
 

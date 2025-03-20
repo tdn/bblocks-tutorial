@@ -1,5 +1,5 @@
 
-# 6 - Import and extend (Schema)
+# 06 - Import and extend (Schema)
 
 `ogc.bbr.tutorial.exercise6` *v1.0*
 

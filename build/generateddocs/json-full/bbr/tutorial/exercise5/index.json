@@ -2,14 +2,14 @@
 
 {
   "itemIdentifier": "ogc.bbr.tutorial.exercise5",
-  "name": "5 - Features",
+  "name": "05 - Features",
   "abstract": "This example shows a simple customisation for OGC API Feature schemas",
   "status": "under-development",
   "dateTimeAddition": "2023-05-19T00:00:00Z",
   "itemClass": "schema",
   "register": "building-blocks-tutorial",
   "version": "1.0",
-  "dateOfLastChange": "2025-03-19",
+  "dateOfLastChange": "2025-03-20",
   "sources": [
     {
       "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",
