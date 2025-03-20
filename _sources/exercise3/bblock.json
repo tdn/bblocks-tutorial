@@ -1,6 +1,6 @@
 {
   "$schema": "metaschema.yaml",
-  "name": "3 - Add Semantic Rules",
+  "name": "03 - Add Semantic Rules",
   "highlighted": true,
   "abstract": "Add logical rules using SHACL to exploit semantic annotations",
   "status": "under-development",

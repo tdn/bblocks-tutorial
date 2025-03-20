@@ -1,4 +1,4 @@
-## Exercise 4
+## Exercise 10
 
 Goal: Define a Building Block for a semantic data model
 
