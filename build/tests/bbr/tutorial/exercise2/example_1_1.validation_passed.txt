@@ -1,5 +1,5 @@
 Validation report for ogc.bbr.tutorial.exercise2 - 02 - Add a JSON-LD context
-Generated 2025-03-20T11:54:15.800083+00:00
+Generated 2025-06-23T04:41:03.036118+00:00
 === Files ===
 Using example_1_1.json from examples
 === End Files ===
