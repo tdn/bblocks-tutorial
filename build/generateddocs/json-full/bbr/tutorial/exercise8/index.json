@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "building-blocks-tutorial",
   "version": "0.1",
-  "dateOfLastChange": "2025-06-23",
+  "dateOfLastChange": "2025-10-07",
   "tags": [
     "building-blocks-tutorial",
     "3D",
@@ -18,7 +18,7 @@
     "topology",
     "cityjson"
   ],
-  "shaclRules": {},
+  "shaclShapes": {},
   "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise8/",
   "rdfData": [],
   "validationPassed": true,

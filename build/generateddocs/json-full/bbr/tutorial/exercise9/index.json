@@ -11,7 +11,7 @@
   "itemClass": "model",
   "register": "building-blocks-tutorial",
   "version": "0.1",
-  "dateOfLastChange": "2025-06-23",
+  "dateOfLastChange": "2025-10-07",
   "sources": [
     {
       "title": "Sample source document",
@@ -24,7 +24,7 @@
     "building-blocks-tutorial",
     "templates"
   ],
-  "shaclRules": {
+  "shaclShapes": {
     "ogc.bbr.tutorial.exercise9": [
       "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise9/rules.shacl"
     ]
