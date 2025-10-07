@@ -30,15 +30,15 @@
   "highlighted": true,
   "shaclShapes": {},
   "schema": {
-    "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/schema.yaml",
-    "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/schema.json"
+    "application/yaml": "https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/schema.yaml",
+    "application/json": "https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/schema.json"
   },
-  "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise5/schema.yaml",
-  "ldContext": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/context.jsonld",
-  "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise5/",
+  "sourceSchema": "https://tdn.github.io/bblocks-tutorial/_sources/exercise5/schema.yaml",
+  "ldContext": "https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/context.jsonld",
+  "sourceFiles": "https://tdn.github.io/bblocks-tutorial/_sources/exercise5/",
   "rdfData": [],
   "validationPassed": false,
-  "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise5/",
+  "testOutputs": "https://github.com/tdn/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise5/",
   "description": "## Using a standard container\n\nThis is an **interoperable** approach to packaging a data model in a standardised structure.\n\ni.e. the attributes (properties) are managed independently of the packaging container (Feature) \n\nIn this case we use the schema from the previous examples.\n\nThis building block **inherits** reusable semantic annotations from a common library, simplifying implementation.\n\n### Steps\n- uncomment the reference to the previous exercise schema in schema.yaml\n- run build, view etc\n- examine \"Semantic Uplift\" and note that event though no `context.jsonld` is present the building block inherits and combines the two building blocks semantic annotations.\n\n\n\n",
   "examples": [
     {
@@ -50,22 +50,22 @@
           "language": "json",
           "ref": "examples/feature.json",
           "code": "{\n  \"@context\": {\n    \"mynamespace\": \"http://example.org/ns1/\"\n  },\n  \"id\": \"f1\",\n  \"type\": \"Feature\",\n  \"geometry\": {\n    \"type\": \"LineString\",\n    \"coordinates\": [\n      [\n        -111.67183507997295,\n        40.056709946862874\n      ],\n      [\n        -111.71,\n        40.156709946862874\n      ]\n    ]\n  },\n  \"properties\": {\n    \"a\": \"mynamespace:aThing\",\n    \"b\": 23,\n    \"c\": 0.1\n  }\n}\n",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise5/example_1_1.json"
+          "url": "https://tdn.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise5/example_1_1.json"
         },
         {
           "language": "yaml",
           "code": "id: 16\ntype: Feature\ngeometry: null\nproperties:\n  a: mynamespace:aThing\n  b: 23\n  c: 0.1\n",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise5/example_1_2.yaml"
+          "url": "https://tdn.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise5/example_1_2.yaml"
         },
         {
           "language": "jsonld",
-          "code": "{\n  \"@context\": [\n    {\n      \"mynamespace\": \"http://example.com/mythings/\"\n    },\n    \"https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/context.jsonld\",\n    {\n      \"mynamespace\": \"http://example.org/ns1/\"\n    }\n  ],\n  \"id\": \"f1\",\n  \"type\": \"Feature\",\n  \"geometry\": {\n    \"type\": \"LineString\",\n    \"coordinates\": [\n      [\n        -111.67183507997295,\n        40.056709946862874\n      ],\n      [\n        -111.71,\n        40.156709946862875\n      ]\n    ]\n  },\n  \"properties\": {\n    \"a\": \"mynamespace:aThing\",\n    \"b\": 23,\n    \"c\": 0.1\n  }\n}",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise5/example_1_1.jsonld"
+          "code": "{\n  \"@context\": [\n    {\n      \"mynamespace\": \"http://example.com/mythings/\"\n    },\n    \"https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/context.jsonld\",\n    {\n      \"mynamespace\": \"http://example.org/ns1/\"\n    }\n  ],\n  \"id\": \"f1\",\n  \"type\": \"Feature\",\n  \"geometry\": {\n    \"type\": \"LineString\",\n    \"coordinates\": [\n      [\n        -111.67183507997295,\n        40.056709946862874\n      ],\n      [\n        -111.71,\n        40.156709946862875\n      ]\n    ]\n  },\n  \"properties\": {\n    \"a\": \"mynamespace:aThing\",\n    \"b\": 23,\n    \"c\": 0.1\n  }\n}",
+          "url": "https://tdn.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise5/example_1_1.jsonld"
         },
         {
           "language": "ttl",
           "code": "@prefix geojson: <https://purl.org/geojson/vocab#> .\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://example.com/features/f1> a geojson:Feature ;\n    geojson:geometry [ a geojson:LineString ;\n            geojson:coordinates ( ( -1.116718e+02 4.005671e+01 ) ( -1.1171e+02 4.015671e+01 ) ) ] .\n\n",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise5/example_1_1.ttl"
+          "url": "https://tdn.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise5/example_1_1.ttl"
         }
       ],
       "prefixes": {
@@ -77,6 +77,6 @@
     "mynamespace": "http://example.com/mythings/"
   },
   "annotatedSchema": "$schema: https://raw.githubusercontent.com/opengeospatial/bblocks-postprocess/refs/heads/master/ogc/bblocks/schemas/examples.schema.yaml\ndescription: Example of a simple GeoJSON Feature specialisation\nallOf:\n- $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml\n",
-  "gitRepository": "https://github.com/ogcincubator/bblocks-tutorial",
+  "gitRepository": "https://github.com/tdn/bblocks-tutorial",
   "gitPath": "_sources/exercise5"
 }

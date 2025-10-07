@@ -27,18 +27,18 @@
   ],
   "shaclShapes": {
     "ogc.bbr.tutorial.exercise4": [
-      "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise4/rules.shacl"
+      "https://tdn.github.io/bblocks-tutorial/_sources/exercise4/rules.shacl"
     ]
   },
   "schema": {
-    "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4/schema.yaml",
-    "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4/schema.json"
+    "application/yaml": "https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4/schema.yaml",
+    "application/json": "https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise4/schema.json"
   },
-  "sourceSchema": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise4/schema.yaml",
-  "sourceFiles": "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise4/",
+  "sourceSchema": "https://tdn.github.io/bblocks-tutorial/_sources/exercise4/schema.yaml",
+  "sourceFiles": "https://tdn.github.io/bblocks-tutorial/_sources/exercise4/",
   "rdfData": [],
   "validationPassed": false,
-  "testOutputs": "https://github.com/ogcincubator/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise4/",
+  "testOutputs": "https://github.com/tdn/bblocks-tutorial/blob/master/build/tests/bbr/tutorial/exercise4/",
   "description": "## Exercise 4\n\nGoal: Profile a building block with additional rules, with tests\n\nNote this illustrates how to use examples to test rules fail when expected. This is a critical capability for complex systems.\n\n### Steps\n- uncomment import from schema.yaml\n- uncomment line #11 in rules.shacl and examine the additional profile constraint (B<5))\n- run build\n- run viewer\n- navigate to \"Exercise 4\"/Validation\n- view validation results on \"about tab\"\n- move `examples/*-fail` to `tests`\n- run build\n- run viewer\n- view validation results at [Validation Report](validation) or [build-local/...](/register/build-local/tests/bbr/template/exercise3/_report.json)",
   "examples": [
     {
@@ -48,17 +48,17 @@
           "language": "json",
           "ref": "examples/example_b_lt_5.json",
           "code": "{\n  \"a\": \"mynamespace:aThing\",\n  \"b\": 6,\n  \"c\": 1\n}\n\n",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise4/example_1_1.json"
+          "url": "https://tdn.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise4/example_1_1.json"
         },
         {
           "language": "jsonld",
           "code": "{\n  \"@context\": [\n    {\n      \"mynamespace\": \"http://example.org/ns1/\"\n    },\n    {}\n  ],\n  \"a\": \"mynamespace:aThing\",\n  \"b\": 6,\n  \"c\": 1\n}",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise4/example_1_1.jsonld"
+          "url": "https://tdn.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise4/example_1_1.jsonld"
         },
         {
           "language": "ttl",
           "code": "\n",
-          "url": "https://ogcincubator.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise4/example_1_1.ttl"
+          "url": "https://tdn.github.io/bblocks-tutorial/build/tests/bbr/tutorial/exercise4/example_1_1.ttl"
         }
       ],
       "prefixes": {
@@ -70,6 +70,6 @@
     "mynamespace": "http://example.org/ns1/"
   },
   "annotatedSchema": "$schema: https://json-schema.org/draft/2020-12/schema\n",
-  "gitRepository": "https://github.com/ogcincubator/bblocks-tutorial",
+  "gitRepository": "https://github.com/tdn/bblocks-tutorial",
   "gitPath": "_sources/exercise4"
 }

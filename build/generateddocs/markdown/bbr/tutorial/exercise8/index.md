@@ -5244,6 +5244,6 @@ This exercise shows how a source data structure can be heavily manipulated to su
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-tutorial](https://github.com/ogcincubator/bblocks-tutorial)
+* URL: [https://github.com/tdn/bblocks-tutorial](https://github.com/tdn/bblocks-tutorial)
 * Path: `_sources/exercise8`
 

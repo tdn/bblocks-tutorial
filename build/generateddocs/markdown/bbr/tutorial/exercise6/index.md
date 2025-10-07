@@ -54,14 +54,14 @@ allOf:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6/schema.yaml)
+* YAML version: [schema.yaml](https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6/schema.json)
+* JSON version: [schema.json](https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6/schema.yaml)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-tutorial](https://github.com/ogcincubator/bblocks-tutorial)
+* URL: [https://github.com/tdn/bblocks-tutorial](https://github.com/tdn/bblocks-tutorial)
 * Path: `_sources/exercise6`
 

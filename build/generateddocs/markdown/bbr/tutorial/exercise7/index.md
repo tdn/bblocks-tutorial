@@ -22,7 +22,7 @@ schema and graph transforms
 #### jsonld
 ```jsonld
 {
-  "@context": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/context.jsonld",
+  "@context": "https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/context.jsonld",
   "one": 1,
   "two": 2,
   "string": "value"
@@ -62,8 +62,8 @@ x-jsonld-prefixes:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/schema.yaml)
+* YAML version: [schema.yaml](https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/schema.json)
+* JSON version: [schema.json](https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/schema.yaml)
 
 
 # JSON-LD Context
@@ -81,13 +81,13 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/context.jsonld)
+[context.jsonld](https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise7/context.jsonld)
 
 
 # For developers
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-tutorial](https://github.com/ogcincubator/bblocks-tutorial)
+* URL: [https://github.com/tdn/bblocks-tutorial](https://github.com/tdn/bblocks-tutorial)
 * Path: `_sources/exercise7`
 

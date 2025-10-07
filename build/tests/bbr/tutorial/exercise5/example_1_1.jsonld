@@ -3,7 +3,7 @@
     {
       "mynamespace": "http://example.com/mythings/"
     },
-    "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/context.jsonld",
+    "https://tdn.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise5/context.jsonld",
     {
       "mynamespace": "http://example.org/ns1/"
     }
