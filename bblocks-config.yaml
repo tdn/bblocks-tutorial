@@ -6,7 +6,7 @@ abstract: |
   A set of building blocks introducing capabilities, as a sequence of exercises.
 # Description for this collection (optional)
 description: |
-  Follow the instructions in the "About section" of each building block
+  Follow the instructions in the "About section" of each building block, starting with the Overview to orient yourself.
   
 # Customize the following prefix (will be prepended to the path of the building blocks):
 identifier-prefix: ogc.bbr.tutorial.
