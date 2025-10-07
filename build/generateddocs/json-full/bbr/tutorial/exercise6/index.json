@@ -9,7 +9,7 @@
   "itemClass": "schema",
   "register": "building-blocks-tutorial",
   "version": "1.0",
-  "dateOfLastChange": "2025-06-23",
+  "dateOfLastChange": "2025-10-07",
   "sources": [],
   "maturity": "development",
   "scope": "unstable",
@@ -21,7 +21,7 @@
   ],
   "group": "Examples",
   "highlighted": true,
-  "shaclRules": {},
+  "shaclShapes": {},
   "schema": {
     "application/yaml": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6/schema.yaml",
     "application/json": "https://ogcincubator.github.io/bblocks-tutorial/build/annotated/bbr/tutorial/exercise6/schema.json"

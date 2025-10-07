@@ -11,7 +11,7 @@
   "itemClass": "model",
   "register": "building-blocks-tutorial",
   "version": "0.1",
-  "dateOfLastChange": "2025-06-23",
+  "dateOfLastChange": "2025-10-07",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -25,7 +25,7 @@
     "building-blocks-tutorial",
     "templates"
   ],
-  "shaclRules": {
+  "shaclShapes": {
     "ogc.bbr.tutorial.exercise3": [
       "https://ogcincubator.github.io/bblocks-tutorial/_sources/exercise3/rules.shacl"
     ]
